@@ -1,0 +1,10 @@
+.score-board {
+    padding: 2px 0px;
+    color: #333;
+    background-color: #88ace2;
+    margin-bottom: 10px
+}
+
+.score-board > h3 {
+    color: #f4f4f4;
+}
