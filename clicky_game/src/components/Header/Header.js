@@ -12,6 +12,8 @@ const Header = props => (
             {props.desc}
             <br />
             {props.rules}
+            <br />
+            {props.rules2}
         </p>
 
     </header>

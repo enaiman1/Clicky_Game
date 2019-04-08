@@ -1,11 +1,17 @@
 .jumbotron {
     margin-bottom: 0px;
-    color: #333;
-    background-image: url(../../images/memoryHeader.jpg);
-    background-repeat: no-repeat;
+    color: #426bda;
+
+    background-image: url(../../images/memoryHeader3.jpg);
+    background-repeat: repeat;
     padding: 30px 0px;
+    font-family: 'Muli', sans-serif;
+
 }
 
+
 header > h1 {
-    color: #f3dddd;
+    color: #2c4c7c;
+    padding: 5px;
+    font-family: 'Cinzel Decorative', cursive;
 }
