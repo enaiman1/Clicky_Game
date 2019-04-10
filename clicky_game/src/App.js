@@ -1,10 +1,9 @@
-// importing components
 import React, { Component } from 'react';
 import ImageCard from "./components/ImageCard";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import ScoreBoard from "./components/ScoreBoard";
-import visual from "./visual.json";
+import visual from "./visual.js";
 import './App.css';
 
 // creating state object
@@ -83,7 +82,7 @@ class App extends Component {
                             imageClick={this.imageClick}
                             id={visual.id}
                             key={visual.id}
-                            image={visual.imageURL}
+                            image={visual.image}
                         />
                     ))}
                 </Wrapper>
